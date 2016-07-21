@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF304F81D3EB786003C2E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF304F71D3EB786003C2E70 /* AppDelegate.swift */; };
+		CAF304FA1D3EB786003C2E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF304F91D3EB786003C2E70 /* ViewController.swift */; };
+		CAF304FD1D3EB786003C2E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF304FB1D3EB786003C2E70 /* Main.storyboard */; };
+		CAF304FF1D3EB786003C2E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF304FE1D3EB786003C2E70 /* Assets.xcassets */; };
+		CAF305021D3EB786003C2E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF305001D3EB786003C2E70 /* LaunchScreen.storyboard */; };
+		CAF3050B1D3EB7F8003C2E70 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF305091D3EB7F8003C2E70 /* ScannerView.swift */; };
+		CAF3050C1D3EB7F8003C2E70 /* BareCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3050A1D3EB7F8003C2E70 /* BareCodeScannerView.swift */; };
+		CAF305121D3F5BEE003C2E70 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAF3050E1D3F5BEE003C2E70 /* beep.mp3 */; };
+		CAF305131D3F5BEE003C2E70 /* fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAF3050F1D3F5BEE003C2E70 /* fail.wav */; };
+		CAF305141D3F5BEE003C2E70 /* camera-swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF305101D3F5BEE003C2E70 /* camera-swipe.png */; };
+		CAF305151D3F5BEE003C2E70 /* camera-swipe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF305111D3F5BEE003C2E70 /* camera-swipe@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAF304F41D3EB786003C2E70 /* BarCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF304F71D3EB786003C2E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF304F91D3EB786003C2E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF304FC1D3EB786003C2E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF304FE1D3EB786003C2E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF305011D3EB786003C2E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF305031D3EB786003C2E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF305091D3EB7F8003C2E70 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		CAF3050A1D3EB7F8003C2E70 /* BareCodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BareCodeScannerView.swift; sourceTree = "<group>"; };
+		CAF3050E1D3F5BEE003C2E70 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = Assets/beep.mp3; sourceTree = "<group>"; };
+		CAF3050F1D3F5BEE003C2E70 /* fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fail.wav; path = Assets/fail.wav; sourceTree = "<group>"; };
+		CAF305101D3F5BEE003C2E70 /* camera-swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-swipe.png"; path = "Assets/camera-swipe.png"; sourceTree = "<group>"; };
+		CAF305111D3F5BEE003C2E70 /* camera-swipe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-swipe@2x.png"; path = "Assets/camera-swipe@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF304F11D3EB786003C2E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF304EB1D3EB786003C2E70 = {
+			isa = PBXGroup;
+			children = (
+				CAF304F61D3EB786003C2E70 /* BarCodeScanner */,
+				CAF304F51D3EB786003C2E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF304F51D3EB786003C2E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF304F41D3EB786003C2E70 /* BarCodeScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF304F61D3EB786003C2E70 /* BarCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CAF3050D1D3F5BE2003C2E70 /* Assets */,
+				CAF305091D3EB7F8003C2E70 /* ScannerView.swift */,
+				CAF3050A1D3EB7F8003C2E70 /* BareCodeScannerView.swift */,
+				CAF304F71D3EB786003C2E70 /* AppDelegate.swift */,
+				CAF304F91D3EB786003C2E70 /* ViewController.swift */,
+				CAF304FB1D3EB786003C2E70 /* Main.storyboard */,
+				CAF304FE1D3EB786003C2E70 /* Assets.xcassets */,
+				CAF305001D3EB786003C2E70 /* LaunchScreen.storyboard */,
+				CAF305031D3EB786003C2E70 /* Info.plist */,
+			);
+			path = BarCodeScanner;
+			sourceTree = "<group>";
+		};
+		CAF3050D1D3F5BE2003C2E70 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CAF3050E1D3F5BEE003C2E70 /* beep.mp3 */,
+				CAF3050F1D3F5BEE003C2E70 /* fail.wav */,
+				CAF305101D3F5BEE003C2E70 /* camera-swipe.png */,
+				CAF305111D3F5BEE003C2E70 /* camera-swipe@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF304F31D3EB786003C2E70 /* BarCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF305061D3EB786003C2E70 /* Build configuration list for PBXNativeTarget "BarCodeScanner" */;
+			buildPhases = (
+				CAF304F01D3EB786003C2E70 /* Sources */,
+				CAF304F11D3EB786003C2E70 /* Frameworks */,
+				CAF304F21D3EB786003C2E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarCodeScanner;
+			productName = BarCodeScanner;
+			productReference = CAF304F41D3EB786003C2E70 /* BarCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF304EC1D3EB786003C2E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = favre;
+				TargetAttributes = {
+					CAF304F31D3EB786003C2E70 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAF304EF1D3EB786003C2E70 /* Build configuration list for PBXProject "BarCodeScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF304EB1D3EB786003C2E70;
+			productRefGroup = CAF304F51D3EB786003C2E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF304F31D3EB786003C2E70 /* BarCodeScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF304F21D3EB786003C2E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF305131D3F5BEE003C2E70 /* fail.wav in Resources */,
+				CAF305021D3EB786003C2E70 /* LaunchScreen.storyboard in Resources */,
+				CAF304FF1D3EB786003C2E70 /* Assets.xcassets in Resources */,
+				CAF305141D3F5BEE003C2E70 /* camera-swipe.png in Resources */,
+				CAF305151D3F5BEE003C2E70 /* camera-swipe@2x.png in Resources */,
+				CAF305121D3F5BEE003C2E70 /* beep.mp3 in Resources */,
+				CAF304FD1D3EB786003C2E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF304F01D3EB786003C2E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF304FA1D3EB786003C2E70 /* ViewController.swift in Sources */,
+				CAF304F81D3EB786003C2E70 /* AppDelegate.swift in Sources */,
+				CAF3050C1D3EB7F8003C2E70 /* BareCodeScannerView.swift in Sources */,
+				CAF3050B1D3EB7F8003C2E70 /* ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAF304FB1D3EB786003C2E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF304FC1D3EB786003C2E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF305001D3EB786003C2E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF305011D3EB786003C2E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF305041D3EB786003C2E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF305051D3EB786003C2E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF305071D3EB786003C2E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = favre.BarCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAF305081D3EB786003C2E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = favre.BarCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF304EF1D3EB786003C2E70 /* Build configuration list for PBXProject "BarCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF305041D3EB786003C2E70 /* Debug */,
+				CAF305051D3EB786003C2E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF305061D3EB786003C2E70 /* Build configuration list for PBXNativeTarget "BarCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF305071D3EB786003C2E70 /* Debug */,
+				CAF305081D3EB786003C2E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF304EC1D3EB786003C2E70 /* Project object */;
+}
