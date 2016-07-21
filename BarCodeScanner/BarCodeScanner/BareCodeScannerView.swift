@@ -352,13 +352,12 @@ public class BarCodeScannerView : UIView, AVCaptureMetadataOutputObjectsDelegate
 
   //MARK: InterfaceBuilder
   public override func prepareForInterfaceBuilder() {
-    /*
+    
     let center = CALayer()
     center.frame = CGRect(x: (self.frame.size.width / 2) - (self.frame.size.width / 18), y: (self.frame.size.height / 2) - (self.frame.size.height / 18), width: self.frame.size.width / 2, height: self.frame.size.height / 2)
     setupLayers(center)
     
     self.layer.addSublayer(center)
- */
   }
   
   func setupLayers(layer:CALayer){

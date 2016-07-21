@@ -23,6 +23,7 @@ class ViewController: UIViewController {
   }
 }
 
+
 extension ViewController: ScannerViewDelegate {
   
   func canFilter() -> Bool {
