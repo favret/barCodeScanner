@@ -21,7 +21,8 @@ You can use two class :
 
 ## Exemple
 
-Coming soon...
+![barCodeScanner demo](./barcodeScanner_presentation.gif)
+
 
 ## Delegates
 - BarCodeScannerViewDelegate
